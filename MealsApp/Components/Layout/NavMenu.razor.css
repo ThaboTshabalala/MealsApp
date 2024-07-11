@@ -100,7 +100,7 @@ margin:auto;
     .nav-scrollable {
         /* Never collapse the sidebar for wide screens */
         display: block;
-        /* Allow sidebar to scroll for tall menus */
+        /* Allow sidebar to scroll for tall menus  */
         height: calc(100vh - 130px);
         overflow-y: auto;
     }
