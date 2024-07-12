@@ -5,7 +5,7 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MealsApp", "MealsApp\MealsApp.csproj", "{9265099E-6113-4EC2-A509-05934293FA01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealsAppLibrary", "MealsAppLibrary\MealsAppLibrary.csproj", "{62EF5A22-B4EB-464E-9A1E-0BB4D3D9BB9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MealsAppLibrary", "MealsAppLibrary\MealsAppLibrary.csproj", "{62EF5A22-B4EB-464E-9A1E-0BB4D3D9BB9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
