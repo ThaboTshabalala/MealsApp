@@ -1,9 +1,41 @@
-﻿@using MealsApp.Data
-@page "/meals"
+﻿@page "/meals"
 @inject IMealsService MealsService
 <h1>Meals</h1>
 
+@if (_meals is null)
+{
+<span>LLoading Meals...</span>
+}
+else
+{
+    <table class="table">
+        
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+        </thead>
+        <tbody>
+            @foreach (var meal in _meals)
+{
+    <tr>
+        <td>@meal.Name</td>
+        <td>@meal.Description</td>
+
+    </tr>
+}
+        </tbody>
+    </table>
+}
+
 @code {
-    override OnO
+    private IEnumerable<Meal>? _meals= null;
+   protected override async Task OnInitializedAsync()
+    {
+     
+        _meals = await MealsService.LoadMealsAsync();
+
+    }
 
 }

@@ -1,5 +1,5 @@
 ﻿namespace MealsApp.Data;
 public interface IMealsService
 {
-    Task<IEnumerable<Meal>> loadMealsAsync();
+    Task<IEnumerable<Meal>> LoadMealsAsync();
 }

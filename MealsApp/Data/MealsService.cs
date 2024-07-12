@@ -2,7 +2,7 @@
 
 public class MealsService : IMealsService
 {
-    public async Task<IEnumerable<Meal>> loadMealsAsync()
+    public async Task<IEnumerable<Meal>> LoadMealsAsync()
     {
         Meal[] meals = [new Meal("Cheese Pizza", "Just a decent pizza with no toppings"),
         new Meal("Rice Balls", "Made with from Asia")];
