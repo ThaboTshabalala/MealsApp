@@ -1,4 +1,4 @@
-﻿namespace MealsApp.Data;
+﻿using MealsAppLibrary.Data;
 
 public class MealsService : IMealsService
 {

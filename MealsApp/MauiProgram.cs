@@ -1,4 +1,6 @@
-﻿using MealsApp.Data;
+﻿
+
+using MealsAppLibrary.Data;
 using Microsoft.Extensions.Logging;
 
 namespace MealsApp
