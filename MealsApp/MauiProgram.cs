@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using MealsApp.Data;
+using Microsoft.Extensions.Logging;
 
 namespace MealsApp
 {
@@ -19,7 +20,8 @@ namespace MealsApp
 #if DEBUG
     		builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
-#endif
+#endif    
+            builder.Services.AddTransient<IMealsService, MealsService>();
 
             return builder.Build();
         }
