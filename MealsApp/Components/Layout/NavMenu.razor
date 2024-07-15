@@ -1,4 +1,7 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@using MealsApp.Authentication
+@inject AuthenticationStateProvider AuthStateProvider
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid justify-content-center" >
         <a class="navbar-brand" href=""> 
             <img src="logo1.jpg" class ="logo"/> 
@@ -25,7 +28,7 @@
         </div>
 
          <div class="nav-item px-3">
-            <NavLink class="nav-link" >
+                    <NavLink class="nav-link" @onclick="Logout" style="cursor:pointer">
                         <span class="bi-box-arrow-in-left-nav-menu" 
                         aria-hidden="true"></span> Logout
             </NavLink>
@@ -33,7 +36,7 @@
             </Authorized>
             <NotAuthorized>
             <div class="nav-item px-3">
-                <NavLink class="nav-link">
+                    <NavLink class="nav-link" @onclick="Login" style="cursor:pointer">
                         <span class="bi-box-arrow-in-right-nav-menu"
                         aria-hidden="true"></span> Login..
                 </NavLink>
@@ -44,3 +47,18 @@
       
     </nav>
 </div>
+
+@code{
+    private  async Task Login()
+    {
+        //Type Casting
+        var authStateProvider = (CustomAuthStateProvider)AuthStateProvider;
+        await authStateProvider.LogInAsync();
+    }
+    private  void Logout()
+    {
+        //Type Casting
+        var authStateProvider = (CustomAuthStateProvider)AuthStateProvider;
+         authStateProvider.Logout();
+    }
+}
