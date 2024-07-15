@@ -1,0 +1,89 @@
+[33mcommit 1f2619f151c8612c8b2b9c6bb77118d307821845[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Thabo <justicethabo21@gmail.com>
+Date:   Mon Jul 15 22:43:12 2024 +0200
+
+    Authorize Attribute
+
+[33mcommit d3ac906f69fa6d591258effcf65b5032431fd748[m
+Author: Thabo <justicethabo21@gmail.com>
+Date:   Mon Jul 15 22:25:18 2024 +0200
+
+    Login and Logout Login Done
+
+[33mcommit 2f5554096cba2e9d730d13229f8d2e4f93197ec7[m
+Author: Thabo <justicethabo21@gmail.com>
+Date:   Mon Jul 15 22:01:17 2024 +0200
+
+    Added Auth View and used it
+
+[33mcommit 43105367b9b83280c0c315b48536ec46c2cabcc6[m
+Author: Thabo <justicethabo21@gmail.com>
+Date:   Mon Jul 15 20:34:55 2024 +0200
+
+    Adding security
+
+[33mcommit 43b0bbcef188ecbf7ab68d2accbc720f6b41898e[m
+Author: ThaboOn <thabo@onsightapp.com>
+Date:   Fri Jul 12 10:59:52 2024 +0200
+
+    Router to rcl done
+
+[33mcommit 9cdf72be8418515288d45795532c46985abad85e[m
+Author: ThaboOn <thabo@onsightapp.com>
+Date:   Fri Jul 12 10:26:25 2024 +0200
+
+    Router to root library Done
+
+[33mcommit afc4872245fb5e5c0cd4460e82b518ee978410e9[m
+Author: ThaboOn <thabo@onsightapp.com>
+Date:   Fri Jul 12 09:56:18 2024 +0200
+
+    Minor changes
+
+[33mcommit 6067954e1ccecb2c8834cf1cff936384be17726e[m
+Author: ThaboOn <thabo@onsightapp.com>
+Date:   Fri Jul 12 04:29:32 2024 +0200
+
+    Component moved to a Library
+
+[33mcommit 3ccba143ae75be3b9a8cbf382c7fa4b186cea55d[m
+Author: ThaboOn <thabo@onsightapp.com>
+Date:   Fri Jul 12 04:14:17 2024 +0200
+
+    RCL project Added
+
+[33mcommit 1858b4e814daa7ec683251e1282cfc343f1c2cea[m
+Author: ThaboOn <thabo@onsightapp.com>
+Date:   Fri Jul 12 03:40:27 2024 +0200
+
+    Meals Added to the screen
+
+[33mcommit 7d5d85c3c65fbd201e8dc053d878a5c4791f3bca[m
+Author: ThaboOn <thabo@onsightapp.com>
+Date:   Fri Jul 12 03:10:41 2024 +0200
+
+    Done with Service
+
+[33mcommit bfc83f47653a991e121761c65ae5fe7c6210dbf6[m
+Author: ThaboOn <thabo@onsightapp.com>
+Date:   Fri Jul 12 02:05:57 2024 +0200
+
+    Added Meals Service
+
+[33mcommit d8980915136664b488a3e41b44530216489a2888[m
+Author: ThaboOn <thabo@onsightapp.com>
+Date:   Fri Jul 12 01:30:22 2024 +0200
+
+    Layout Changes
+
+[33mcommit 26517b3b3da3f27a8741a91b6d9f4a015bf28e92[m
+Author: Thabo <justicethabo21@gmail.com>
+Date:   Fri Jul 12 01:01:23 2024 +0200
+
+    Add project files.
+
+[33mcommit 6c7b16500b3cbd23f7ba985eda6c3fe5e1491016[m
+Author: Thabo <justicethabo21@gmail.com>
+Date:   Fri Jul 12 01:01:08 2024 +0200
+
+    Add .gitattributes and .gitignore.
