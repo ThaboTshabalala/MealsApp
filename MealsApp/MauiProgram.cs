@@ -1,6 +1,8 @@
 ﻿
 
+using MealsApp.Authentication;
 using MealsAppLibrary.Data;
+using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.Extensions.Logging;
 
 namespace MealsApp
@@ -21,6 +23,9 @@ namespace MealsApp
 
 #if DEBUG
     		builder.Services.AddBlazorWebViewDeveloperTools();
+            builder.Services.AddAuthorizationCore();
+            builder.Services.AddCascadingAuthenticationState();
+            builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthStateProvider>();
     		builder.Logging.AddDebug();
 #endif    
             builder.Services.AddTransient<IMealsService, MealsService>();
