@@ -1,5 +1,13 @@
 ﻿@page "/"
 
-<h1>Hello There👋</h1>
 
-Welcome to Thabo's Food App'.
+<h1>Hello There👋</h1>
+<AuthorizeView>
+    <Authorized> 
+        Welcome to Thabo's Food App'.
+    </Authorized>
+    <NotAuthorized>
+        Please Log in
+    </NotAuthorized>
+</AuthorizeView>
+
